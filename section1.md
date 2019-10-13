@@ -1,6 +1,6 @@
 ## Section 1: Application Programming Interface
 
-##### a. Using simple code, explain what kind of situations would you use the methods:
+### a. Using simple code, explain what kind of situations would you use the methods:
 
 i. GET
 
@@ -71,7 +71,7 @@ public function store($taskID, Request $request)
 
 <br>
 
-##### b. Explain in your own words, what kind of “authentication” works best for a web service
+### b. Explain in your own words, what kind of “authentication” works best for a web service
 that needs to be secure, yet easy to implement across different programming languages.
 You may want to give an example of how to call this API.
 
@@ -105,7 +105,7 @@ curl -H "Authorization: token OAUTH-TOKEN" https://api.example.com/api/v1/
 
 <br>
 
-##### c. What kind of format is best to be returned by an API as a response? Explain your answer and provide comparisons, if needed.
+### c. What kind of format is best to be returned by an API as a response? Explain your answer and provide comparisons, if needed.
 
 - The best format is using JSON. One of the important criteria for me is perfomance. JSON is much more faster because don't have
 unnecessary tag like XML. It will make the document size compact. 
